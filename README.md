@@ -48,4 +48,15 @@ Feel free to check [our documentation](https://fpm.dev/) or jump into our [Fifth
 
 These fonts are licensed under the [Open Font Licence](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 
+## About
+
+Arya is a Devanagari and Latin type family. It originated with Modular InfoTech's 1201, and was made more smooth. The new and original Latin design is intended to match the Devanagari in weight and and size with an unusual high-contrast sans serif design.
+
+This project is led by Eduardo Tunni, a type designed based in Buenos Aires, Argentina. To contribute, visit [github.com/etunni/Arya](github.com/etunni/Arya)
+
+## Designer
+
+Eduardo Tunni
+Principal design
+
 
