@@ -11,6 +11,10 @@ Designers: Eduardo Tunni, Principal design
 
 ## How To Use This Font In Your FPM Package:
 
+[Read the docs and demo](https://fifthtry.github.io/arya-font).
+
+TLRD:
+
 Include fifthtry.github.io/roboto package into `FPM.ftd` file:
 
 ```ftd
@@ -33,8 +37,6 @@ role: $fpm.type.headline-small
 ```
 
 You will see the `roboto` font.
-
-[Read the docs](https://fifthtry.github.io/arya-font)
 
 ## 👀 Want to learn more?
 
