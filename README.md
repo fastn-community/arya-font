@@ -38,7 +38,8 @@ server](https://discord.gg/bucrdvptYd).
 
 ## License
 
-These fonts are licensed under the [Open Font Licence](https://fonts.google.com/specimen/Arya/about).
+Since Arya Font is under [Open Font Licence](https://fonts.google.com/specimen/Arya/about), this FPM wrapper is also
+under same license.
 
 ## About Original Project
 
