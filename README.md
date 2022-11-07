@@ -15,7 +15,9 @@ Include fifthtry.github.io/roboto package into `FPM.ftd` file:
 Inside your `FPM/config.ftd` use the font:
 
 ```ftd
--- fpm.type.headline-small.font: $inter.fonts.Roboto
+-- import: fifthtry.github.io/roboto
+
+-- fpm.type.headline-small.font: $roboto.fonts.Roboto
 ```
 
 Now if in any file you do:
