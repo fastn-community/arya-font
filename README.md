@@ -39,7 +39,7 @@ server](https://discord.gg/bucrdvptYd).
 ## License
 
 Since Arya Font is under [Open Font Licence](https://fonts.google.com/specimen/Arya/about), this FPM wrapper is also
-under same license.
+under [Open Font License](LICENSE).
 
 ## About Original Project
 
