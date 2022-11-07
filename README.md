@@ -3,8 +3,8 @@
 This repository contains a [fpm font package](https://fpm.dev/featured/fonts/) containing [Google Font: 
 Arya](https://fonts.google.com/specimen/Arya/about).
 
-## How To Use This Font In Your FPM Package:
 
+## How To Use This Font In Your FPM Package:
 
 Include fifthtry.github.io/roboto package into `FPM.ftd` file:
 
@@ -38,13 +38,13 @@ server](https://discord.gg/bucrdvptYd).
 
 ## License
 
-These fonts are licensed under the [Open Font Licence](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+These fonts are licensed under the [Open Font Licence](https://fonts.google.com/specimen/Arya/about).
 
 ## About Original Project
 
-Arya is a Devanagari and Latin type family. It originated with Modular InfoTech's 1201, and was made more smooth. The new and original Latin design is intended to match the Devanagari in weight and and size with an unusual high-contrast sans serif design.
-
-This project is led by Eduardo Tunni, a type designed based in Buenos Aires, Argentina. To contribute, visit [github.com/etunni/Arya](https://github.com/etunni/Arya)
+Arya is a Devanagari and Latin type family. It originated with Modular InfoTech's 1201, and was made more smooth. The 
+new and original Latin design is intended to match the Devanagari in weight and and size with an unusual high-contrast 
+sans serif design.
 
 Designers: Eduardo Tunni, Principal design
 
