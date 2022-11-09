@@ -18,21 +18,21 @@ TLRD:
 Include fifthtry.github.io/roboto package into `FPM.ftd` file:
 
 ```ftd
--- fpm.dependency: fifthtry.github.io/roboto
+;-- fpm.dependency: fifthtry.github.io/roboto
 ```
 
 Inside your `FPM/config.ftd` use the font:
 
 ```ftd
--- import: fifthtry.github.io/roboto
+;-- import: fifthtry.github.io/roboto
 
--- fpm.type.headline-small: $roboto.fonts.Roboto
+;-- fpm.type.headline-small: $roboto.fonts.Roboto
 ```
 
 Now if in any file you do:
 
 ```ftd
--- ftd.text:
+;-- ftd.text:
 role: $fpm.type.headline-small
 ```
 
