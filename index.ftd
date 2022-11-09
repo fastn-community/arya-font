@@ -1,57 +1,45 @@
--- import: fifthtry.github.io/arya/assets
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fpm
 
 
+-- boolean is-mobile: false
 
--- ds.page: Welcome to your [FPM site](https://fpm.dev/)
+-- is-mobile: true
+if: $ftd.device == mobile
 
-FPM Blank Package Template Repo
-
-🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
-
-
---- ds.image: doc-site
-src: $assets.files.doc-site-example.png
+-- ftd.column:
 width: fill
+padding-horizontal: 50
+padding-horizontal if $is-mobile: 20
+background-color: $fpm.color.main.background.base
+height: fill
 
 
---- ds.h1: 🚀 Project Structure
+-- pd.package: Arya - fpm font
+name: fifthtry.github.io/arya
 
-Inside of your FPM project, you'll see the following folders and files:
+This component consist of Google Roboto font with all it's styles from Thin-100 to Black-900 Italic.
 
 
---- ds.code:
-lang:
+-- pd.component: Arya - fpm font
+name: https://github.com/FifthTry/arya
 
-/
-├── .build/
-│   └── index.html
-├── .packages/
-│   └── fifthtry.github.io/
-│   	└── All downloaded dependencies
-│   	
-├── FPM.ftd
-├── index.ftd
-└── README.md
+This component consist of Google Roboto font with all it's styles from Thin-100 to Black-900 Italic.
 
 
 
---- ds.h1: 🧞 Commands
+-- pd.hidden-code: How to use
 
-All commands are run from the root of the project, from a terminal:
+include fifthtry.github.io/arya package into FPM.ftd file
 
---- ds.code:
-lang:
+\-- fpm.dependency: fifthtry.github.io/arya
 
-=======================================================================
-| Command                | Action                                     |
-| :--------------------- | :----------------------------------------- |
-| fpm build              | FPM builder installs all `FPM` dependencies|
-| fpm serve              | Starts local dev server at available port  |
-|                        | `localhost:8000`                           |
-=======================================================================
+\-- fpm.auto-import: fifthtry.github.io/arya as inter
 
+Inside your .ftd file to change for any specific token use:
 
---- ds.h1: 👀 Want to learn more?
+\-- fpm.type.headline-small.font: $inter.fonts.Arya
 
-Feel free to check [our documentation](https://fpm.dev/) or jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+\-- ftd.text:
+role: $fpm.type.headline-small
 
