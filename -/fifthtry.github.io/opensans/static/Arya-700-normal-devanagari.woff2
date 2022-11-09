@@ -67,7 +67,7 @@ role: $fpm.type.headline-small
 
 -- tf.h2: `arya-font` regular 18px:
 
--- ftd.text: The quick brown fox jumps over the lazy dog
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
 role: $arya-font
 color: $fpm.color.main.text-strong
 margin-bottom: $fpm.space.space-6
@@ -75,7 +75,7 @@ style: regular
 
 -- tf.h2: `arya-font` regular strike through 18px:
 
--- ftd.text: The quick brown fox jumps over the lazy dog
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
 role: $arya-font
 color: $fpm.color.main.text-strong
 margin-bottom: $fpm.space.space-6
@@ -83,7 +83,7 @@ style: regular strike
 
 -- tf.h2: `arya-font` regular underline 18px:
 
--- ftd.text: The quick brown fox jumps over the lazy dog
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
 role: $arya-font
 color: $fpm.color.main.text-strong
 margin-bottom: $fpm.space.space-6
@@ -91,7 +91,7 @@ style: regular underline
 
 -- tf.h2: `arya-font` regular italic 18px:
 
--- ftd.text: The quick brown fox jumps over the lazy dog
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
 role: $arya-font
 color: $fpm.color.main.text-strong
 margin-bottom: $fpm.space.space-6
@@ -99,7 +99,7 @@ style: regular italic
 
 -- tf.h2: `arya-font` bold 18px:
 
--- ftd.text: The quick brown fox jumps over the lazy dog
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
 role: $arya-font
 color: $fpm.color.main.text-strong
 margin-bottom: $fpm.space.space-6
@@ -107,7 +107,7 @@ style: bold
 
 -- tf.h2: `arya-font` bold italic 18px:
 
--- ftd.text: The quick brown fox jumps over the lazy dog
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
 role: $arya-font
 color: $fpm.color.main.text-strong
 margin-bottom: $fpm.space.space-6
@@ -115,7 +115,7 @@ style: bold italic
 
 -- tf.h2: `arya-font` heading regular 48px:
 
--- ftd.text: The quick brown fox jumps over the lazy dog
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
 role: $arya-font-heading
 color: $fpm.color.main.text-strong
 margin-bottom: $fpm.space.space-10
