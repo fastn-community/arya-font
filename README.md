@@ -25,7 +25,6 @@ Inside your `FPM/config.ftd` use the font:
 
 ```ftd
 -- import: fifthtry.github.io/roboto
-
 -- fpm.type.headline-small.font: $roboto.fonts.Roboto
 ```
 
