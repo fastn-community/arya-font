@@ -11,7 +11,7 @@ Designers: Eduardo Tunni, Principal design
 
 ## How To Use This Font In Your fastn Package:
 
-[Read the docs and demo](https://fifthtry.github.io/arya-font).
+[Read the docs and demo](https://fastn-community.github.io/arya-font/).
 
 ## 👀 Want to learn more?
 
