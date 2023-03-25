@@ -37,8 +37,8 @@ lang: ftd
 
 -- ds.markdown: 
 
-After adding arya-font dependency inside you `FASTN.ftd` file, You need to add
-arya-font assets and import it inside you `ftd` file where you are using this
+After adding arya-font dependency inside your `FASTN.ftd` file, You need to add
+arya-font assets and import it inside your `ftd` file where you are using this
 font for your custom font types. To include arya-font into your `ftd` file
 follow below instructions.
 
@@ -55,11 +55,11 @@ lang: ftd
 How to use `ftd.type` to create a custom font `types` using arya-font? 
 
 We don't recommend creating custom types. We recommend to use 
-our [arya-font-typography](fastn-community.github.io/arya-font-typography)
+our [arya-font-typography](https://fastn-community.github.io/arya-font-typography)
 
-If you're using [arya-font-typography](fastn-community.github.io/arya-font-typography) 
+If you're using [arya-font-typography](https://fastn-community.github.io/arya-font-typography) 
 and still your designer has introduced new font size which is not included or 
-part of our [arya-font-typography](fastn-community.github.io/arya-font-typography) 
+part of our [arya-font-typography](https://fastn-community.github.io/arya-font-typography) 
 then only define custom types. 
 
 We hope you shouldn't need to define a custom type.
