@@ -1,122 +1,111 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
--- import: fifthtry.github.io/package-doc/code-block as cb
--- import: fifthtry.github.io/package-doc/typography as tf
--- import: fpm
--- import: fifthtry.github.io/arya-font/assets as arya-assets
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: fifthtry.github.io/arya-font/custom
+-- import: fifthtry.github.io/package-doc/footer
 
 
 
 
+-- ds.page: 
+show-footer: true
+site-name: `arya-font` Font Package
 
--- ftd.type arya-demo:
-line-height.px: 36
-size.px: 22
-letter-spacing.px: 0
-font-family: $arya-assets.fonts.Arya
-weight: 400
+-- ds.page.footer:
 
--- ftd.type arya-demo-heading:
-line-height.px: 56
-size.px: 48
-letter-spacing.px: 0
-font-family: $arya-assets.fonts.Arya
-weight: 400
+-- footer.fastn-footer:
 
--- ftd.responsive-type small-heading:
-desktop: $arya-demo
-mobile: $arya-demo
+-- end: ds.page.footer
 
--- ftd.responsive-type large-heading:
-desktop: $arya-demo-heading
-mobile: $arya-demo-heading
-
-
-
--- ftd.column:
-width: fill-container
-padding-horizontal.px: 50
-padding-horizontal.px if {ftd.device == "mobile"}: 20
-background.solid: $inherited.colors.background.base
-
-
--- pd.package: Arya Font
+-- pd.package: FTD arya-font package
 name: fifthtry.github.io/arya-font
 
-This component consist of arya font with all it's styles.
+This FTD font `arya-font` can be used for your ftd web projects. 
 
+To Use this arya-font inside `FTD` project visit [arya-font-typography](fifthtry.github.io/arya-font-typography).
 
--- cb.code: How to use
-lang: ftd
+-- ds.h3: arya-font various sizes
 
-include fifthtry.github.io/arya-font package into FPM.ftd file
-
-\-- fpm.dependency: fifthtry.github.io/arya-font
-
-\-- fpm.auto-import: fifthtry.github.io/arya-font
-
-Inside your .ftd file to change for any specific token use:
-
-\-- fpm.type.headline-small.font: $arya.fonts.arya
-
-\-- ftd.text:
-role: $fpm.type.headline-small
-
-
-
--- tf.h2: `arya-font` regular 18px:
-
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
-role: $small-heading
+-- ftd.text: 
+role: $custom.arya-font-size-12-400
 color: $inherited.colors.text-strong
-margin-bottom.px: 24
-;;style: regular
 
--- tf.h2: `arya-font` regular strike through 18px:
+`font-size: 12px, font-weight: 400` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
-role: $small-heading
+👉 सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
+
+
+-- ftd.text: 
+role: $custom.arya-font-size-12-800
 color: $inherited.colors.text-strong
-margin-bottom.px: 24
-;;style: regular strike
 
--- tf.h2: `arya-font` regular underline 18px:
+`font-size: 12px, font-weight: 500` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
-role: $small-heading
+👉 सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
+
+-- ftd.text: 
+role: $custom.arya-font-size-12-800
 color: $inherited.colors.text-strong
-margin-bottom.px: 24
-;;style: regular underline
 
--- tf.h2: `arya-font` regular italic 18px:
+`font-size: 12px, font-weight: 800` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
-role: $small-heading
+👉 सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
+
+
+-- ftd.text: 
+role: $custom.arya-font-size-18-400
 color: $inherited.colors.text-strong
-margin-bottom.px: 24
-;;style: regular italic
 
--- tf.h2: `arya-font` bold 18px:
+`font-size: 18px, font-weight: 400` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
-role: $small-heading
+👉 सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
+
+-- ftd.text: 
+role: $custom.arya-font-size-18-500
 color: $inherited.colors.text-strong
-margin-bottom.px: 24
-;;style: bold
 
--- tf.h2: `arya-font` bold italic 18px:
+`font-size: 18px, font-weight: 500` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
-role: $small-heading
+👉 सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
+
+-- ftd.text: 
+role: $custom.arya-font-size-18-800
 color: $inherited.colors.text-strong
-margin-bottom.px: 24
-;;style: bold italic
 
--- tf.h2: `arya-font` heading regular 48px:
+`font-size: 18px, font-weight: 800` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
-role: $large-heading
+👉 सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
+
+-- ftd.text: 
+role: $custom.arya-font-size-48-400
 color: $inherited.colors.text-strong
-margin-bottom.px: 40
-;;style: regular
 
--- end: ftd.column
+`font-size: 48px, font-weight: 400` 
+
+👉 सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
+
+-- ftd.text: 
+role: $custom.arya-font-size-48-500
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 500` 
+
+👉 सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
+
+-- ftd.text:
+role: $custom.arya-font-size-48-800
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 800` 
+
+👉 सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।
+
+-- end: ds.page
+
+
+
+
+
+
+
+
+
