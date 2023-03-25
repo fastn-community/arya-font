@@ -14,7 +14,7 @@ Designers: Eduardo Tunni, Principal design
 
 [Read the docs and demo](https://fastn-community.github.io/arya-font/).
 
-Also, check [arya-font-typography](https://fastn-community.github.io/arya-font-typograph)
+Also, check [arya-font-typography](https://fastn-community.github.io/arya-font-typography/)
 
 ## 👀 Want to learn more?
 
