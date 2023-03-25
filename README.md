@@ -15,7 +15,7 @@ Designers: Eduardo Tunni, Principal design
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://fastn.dev/) or jump into our [FifthTry Discord 
+Feel free to check [our documentation](https://fpm.dev/) or jump into our [FifthTry Discord 
 server](https://discord.gg/bucrdvptYd).
 
 ## License
