@@ -1,11 +1,11 @@
--- import: fifthtry.github.io/arya-font/assets as arya-font-assets
+-- import: fastn-community.github.io/arya-font/assets as arya-font-assets
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
 
 ;; ⚠️fastn-builders::⚠️ before using this file please find and replace Arya
 ;; with font name you have given inside 
-;; `fifthtry.github.io/arya-font/FASTN.ftd file
+;; `fastn-community.github.io/arya-font/FASTN.ftd file
 
 
 
@@ -23,7 +23,7 @@ site-name: `arya-font` Font Package
 -- end: ds.page.footer
 
 -- pd.package: FTD arya-font package
-name: fifthtry.github.io/arya-font
+name: fastn-community.github.io/arya-font
 
 This FTD font `arya-font` package is for your ftd web projects. To Use this
 arya-font inside `FTD` project follow below instructions.
@@ -33,7 +33,7 @@ arya-font inside `FTD` project follow below instructions.
 -- ds.code: Add this to your FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: fifthtry.github.io/arya-font
+\-- fastn.dependency: fastn-community.github.io/arya-font
 
 -- ds.markdown: 
 
@@ -45,7 +45,7 @@ follow below instructions.
 -- ds.code:
 lang: ftd
 
-\-- import: fifthtry.github.io/arya-font/assets as arya-font-assets
+\-- import: fastn-community.github.io/arya-font/assets as arya-font-assets
 
 
 -- ds.h3: How to create a custom arya-font type? 
@@ -55,11 +55,11 @@ lang: ftd
 How to use `ftd.type` to create a custom font `types` using arya-font? 
 
 We don't recommend creating custom types. We recommend to use 
-our [arya-font-typography](fifthtry.github.io/arya-font-typography)
+our [arya-font-typography](fastn-community.github.io/arya-font-typography)
 
-If you're using [arya-font-typography](fifthtry.github.io/arya-font-typography) 
+If you're using [arya-font-typography](fastn-community.github.io/arya-font-typography) 
 and still your designer has introduced new font size which is not included or 
-part of our [arya-font-typography](fifthtry.github.io/arya-font-typography) 
+part of our [arya-font-typography](fastn-community.github.io/arya-font-typography) 
 then only define custom types. 
 
 We hope you shouldn't need to define a custom type.
