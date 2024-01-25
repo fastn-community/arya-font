@@ -1,0 +1,61 @@
+{
+  "files": {
+    "FASTN.ftd": {
+      "name": "FASTN.ftd",
+      "checksum": "60C5D60C1508A167C78C8A05007814618C99EB9B54615DF8B64F1E592E14FAAB",
+      "size": 1863
+    },
+    "LICENSE": {
+      "name": "LICENSE",
+      "checksum": "1B5E658F421BE06AE1399D4A87CB0136F2AB33FF5080EEEF459B293FD2B0BF1B",
+      "size": 4012
+    },
+    "README.md": {
+      "name": "README.md",
+      "checksum": "727BEF8BF1EC6FD53800336A0DD9948904B4912C1C888DF120B46003174EA3AF",
+      "size": 1034
+    },
+    "custom.ftd": {
+      "name": "custom.ftd",
+      "checksum": "08636CFCA981126ED91A1CB5ED6057C1FD4AB49FB64E99F940727200E9B000D2",
+      "size": 5840
+    },
+    "index.ftd": {
+      "name": "index.ftd",
+      "checksum": "7C7636D2734F97BD9DBD0AF1935D5C3A24A17F0A10E3412556F72997919152E3",
+      "size": 3310
+    },
+    "static/Arya-400-normal-devanagari.woff2": {
+      "name": "static/Arya-400-normal-devanagari.woff2",
+      "checksum": "6C30D0B96CADAF0F62B3E0741CB673F593E99D88B0389644D4AD211A0D2F5104",
+      "size": 41880
+    },
+    "static/Arya-400-normal-latin-ext.woff2": {
+      "name": "static/Arya-400-normal-latin-ext.woff2",
+      "checksum": "BDD9B835E4AA335AD57787B06AA7F02DF97724CF4DDAAA2D8026D9557562DA09",
+      "size": 10872
+    },
+    "static/Arya-400-normal-latin.woff2": {
+      "name": "static/Arya-400-normal-latin.woff2",
+      "checksum": "E7BA5FFD1A2DBB612EA3D58755EC104CBE740EC40A91509E807C86C9466CFD00",
+      "size": 15344
+    },
+    "static/Arya-700-normal-devanagari.woff2": {
+      "name": "static/Arya-700-normal-devanagari.woff2",
+      "checksum": "DA3048549402FB9B9C986E2F0AB64047404C2A2264D6391B8001ACEB3AFF803F",
+      "size": 41932
+    },
+    "static/Arya-700-normal-latin-ext.woff2": {
+      "name": "static/Arya-700-normal-latin-ext.woff2",
+      "checksum": "6BBACEFD633D7642727B742E5896DEB90630269EC8123E0941163E22D46B24FB",
+      "size": 11008
+    },
+    "static/Arya-700-normal-latin.woff2": {
+      "name": "static/Arya-700-normal-latin.woff2",
+      "checksum": "2B070487D8F09B28BD5679213E3CD42846CEB176277802E4DFF3246C94C1B621",
+      "size": 15404
+    }
+  },
+  "zip_url": "https://codeload.github.com/fastn-community/arya-font/zip/refs/heads/main",
+  "checksum": "B287331B27E65B84EC5D970AD47D92B5F28815A27BF8CC16EE220D5B82AAB122"
+}
